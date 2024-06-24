@@ -1,0 +1,15 @@
+pkgbase = tkn-bin
+	pkgdesc = A CLI for interacting with Tekton!
+	pkgver = 0.37.0
+	pkgrel = 1
+	url = https://github.com/tektoncd/cli
+	arch = aarch64
+	arch = x86_64
+	license = Apache 2.0
+	provides = tkn
+	source_aarch64 = tkn-bin_0.37.0_aarch64::https://github.com/tektoncd/cli/releases/download/v0.37.0/tkn_0.37.0_Linux_aarch64.tar.gz
+	sha256sums_aarch64 = 9bc6e2aa07012c843bfaaf68b8d536f7d23a110f1ffa09dee5a12057f8712360
+	source_x86_64 = tkn-bin_0.37.0_x86_64.tar.gz::https://github.com/tektoncd/cli/releases/download/v0.37.0/tkn_0.37.0_Linux_x86_64.tar.gz
+	sha256sums_x86_64 = 3430878665d3c1026d510d9daf6e26fe72454da9ca2cdc34bd7c5fca75c3322f
+
+pkgname = tkn-bin
